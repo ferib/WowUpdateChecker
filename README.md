@@ -17,8 +17,8 @@ screen dotnet run
 More info for the Dotnet framework
 https://dotnet.microsoft.com/download/linux-package-manager/ubuntu16-04/runtime-current
 
-# Extra
-installation for ubutnu 16.04
+# ubuntu 16.04 manual
+installing dotnet framework
 ```
 wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -29,13 +29,14 @@ sudo dpkg -i ./libicu55_55.1-7ubuntu0.4_amd64.deb
 sudo apt-get install dotnet-sdk-2.2
 ```
 
-install Screen
+installing Screen
 ```
 sudo apt-get install screen
 ```
 
-example usage
+download and run application
 ```
-# cd to project location
+git clone https://github.com/ferib/WowUpdateChecker.git
+cd WowUpdateChecker
 screen dotnet run
 ```
