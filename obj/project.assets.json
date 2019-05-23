@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {}
+        },
+        "build": {
+          "build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -220,6 +232,109 @@
     }
   },
   "libraries": {
+    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.1": {
+      "sha512": "pn7IMmDyYRwFE316nnMs27GmedPAnjmOfWalWTO+pJkt6JMwdNDQ3yNbWTYG+7zmUU8P4JxhODhXQygDNGvCWQ==",
+      "type": "package",
+      "path": "microsoft.codedom.providers.dotnetcompilerplatform/2.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props",
+        "build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+        "build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props",
+        "build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props",
+        "content/net45/app.config.install.xdt",
+        "content/net45/app.config.uninstall.xdt",
+        "content/net45/web.config.install.xdt",
+        "content/net45/web.config.uninstall.xdt",
+        "content/net46/app.config.install.xdt",
+        "content/net46/app.config.uninstall.xdt",
+        "content/net46/web.config.install.xdt",
+        "content/net46/web.config.uninstall.xdt",
+        "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+        "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+        "microsoft.codedom.providers.dotnetcompilerplatform.2.0.1.nupkg.sha512",
+        "microsoft.codedom.providers.dotnetcompilerplatform.nuspec",
+        "tools/Roslyn45/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "tools/Roslyn45/Microsoft.CSharp.Core.targets",
+        "tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/Roslyn45/Microsoft.CodeAnalysis.Scripting.dll",
+        "tools/Roslyn45/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "tools/Roslyn45/Microsoft.CodeAnalysis.dll",
+        "tools/Roslyn45/Microsoft.DiaSymReader.Native.amd64.dll",
+        "tools/Roslyn45/Microsoft.DiaSymReader.Native.x86.dll",
+        "tools/Roslyn45/Microsoft.VisualBasic.Core.targets",
+        "tools/Roslyn45/System.AppContext.dll",
+        "tools/Roslyn45/System.Collections.Immutable.dll",
+        "tools/Roslyn45/System.Diagnostics.StackTrace.dll",
+        "tools/Roslyn45/System.IO.FileSystem.Primitives.dll",
+        "tools/Roslyn45/System.IO.FileSystem.dll",
+        "tools/Roslyn45/System.Reflection.Metadata.dll",
+        "tools/Roslyn45/VBCSCompiler.exe",
+        "tools/Roslyn45/VBCSCompiler.exe.config",
+        "tools/Roslyn45/csc.exe",
+        "tools/Roslyn45/csc.exe.config",
+        "tools/Roslyn45/csc.rsp",
+        "tools/Roslyn45/csi.exe",
+        "tools/Roslyn45/csi.rsp",
+        "tools/Roslyn45/vbc.exe",
+        "tools/Roslyn45/vbc.exe.config",
+        "tools/Roslyn45/vbc.rsp",
+        "tools/RoslynLatest/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "tools/RoslynLatest/Microsoft.CSharp.Core.targets",
+        "tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/RoslynLatest/Microsoft.CodeAnalysis.Scripting.dll",
+        "tools/RoslynLatest/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "tools/RoslynLatest/Microsoft.CodeAnalysis.dll",
+        "tools/RoslynLatest/Microsoft.DiaSymReader.Native.amd64.dll",
+        "tools/RoslynLatest/Microsoft.DiaSymReader.Native.x86.dll",
+        "tools/RoslynLatest/Microsoft.Managed.Core.targets",
+        "tools/RoslynLatest/Microsoft.VisualBasic.Core.targets",
+        "tools/RoslynLatest/Microsoft.Win32.Primitives.dll",
+        "tools/RoslynLatest/System.AppContext.dll",
+        "tools/RoslynLatest/System.Collections.Immutable.dll",
+        "tools/RoslynLatest/System.Console.dll",
+        "tools/RoslynLatest/System.Diagnostics.DiagnosticSource.dll",
+        "tools/RoslynLatest/System.Diagnostics.FileVersionInfo.dll",
+        "tools/RoslynLatest/System.Diagnostics.StackTrace.dll",
+        "tools/RoslynLatest/System.Globalization.Calendars.dll",
+        "tools/RoslynLatest/System.IO.Compression.ZipFile.dll",
+        "tools/RoslynLatest/System.IO.Compression.dll",
+        "tools/RoslynLatest/System.IO.FileSystem.Primitives.dll",
+        "tools/RoslynLatest/System.IO.FileSystem.dll",
+        "tools/RoslynLatest/System.Net.Http.dll",
+        "tools/RoslynLatest/System.Net.Sockets.dll",
+        "tools/RoslynLatest/System.Reflection.Metadata.dll",
+        "tools/RoslynLatest/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/RoslynLatest/System.Security.Cryptography.Algorithms.dll",
+        "tools/RoslynLatest/System.Security.Cryptography.Encoding.dll",
+        "tools/RoslynLatest/System.Security.Cryptography.Primitives.dll",
+        "tools/RoslynLatest/System.Security.Cryptography.X509Certificates.dll",
+        "tools/RoslynLatest/System.Text.Encoding.CodePages.dll",
+        "tools/RoslynLatest/System.Threading.Tasks.Extensions.dll",
+        "tools/RoslynLatest/System.ValueTuple.dll",
+        "tools/RoslynLatest/System.Xml.ReaderWriter.dll",
+        "tools/RoslynLatest/System.Xml.XPath.XDocument.dll",
+        "tools/RoslynLatest/System.Xml.XPath.dll",
+        "tools/RoslynLatest/System.Xml.XmlDocument.dll",
+        "tools/RoslynLatest/VBCSCompiler.exe",
+        "tools/RoslynLatest/VBCSCompiler.exe.config",
+        "tools/RoslynLatest/csc.exe",
+        "tools/RoslynLatest/csc.exe.config",
+        "tools/RoslynLatest/csc.rsp",
+        "tools/RoslynLatest/csi.exe",
+        "tools/RoslynLatest/csi.exe.config",
+        "tools/RoslynLatest/csi.rsp",
+        "tools/RoslynLatest/vbc.exe",
+        "tools/RoslynLatest/vbc.exe.config",
+        "tools/RoslynLatest/vbc.rsp",
+        "tools/net45/install.ps1",
+        "tools/net45/uninstall.ps1"
+      ]
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "JNHhG+j5eIhG26+H721IDmwswGUznTwwSuJMFe/08h0X2YarHvA15sVAvUkA/2Sp3W0ENNm48t+J7KTPRqEpfA==",
       "type": "package",
@@ -723,6 +838,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform >= 2.0.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Newtonsoft.Json >= 12.0.2"
     ]
@@ -769,6 +885,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
@@ -786,5 +906,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CodeDom.Providers.DotNetCompilerPlatform 2.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

@@ -1,17 +1,26 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "4bf20b3f4b187ddd01af96ea47dda577c5263775"
+    "signature": "3890258a383ca41519b855d3ff8d8d0395acf816"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "WowUpdateChecker/1.0.0": {
         "dependencies": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "WowUpdateChecker.dll": {}
+        }
+      },
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.1": {
+        "runtime": {
+          "lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.50905.0"
+          }
         }
       },
       "Newtonsoft.Json/12.0.2": {
@@ -29,6 +38,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pn7IMmDyYRwFE316nnMs27GmedPAnjmOfWalWTO+pJkt6JMwdNDQ3yNbWTYG+7zmUU8P4JxhODhXQygDNGvCWQ==",
+      "path": "microsoft.codedom.providers.dotnetcompilerplatform/2.0.1",
+      "hashPath": "microsoft.codedom.providers.dotnetcompilerplatform.2.0.1.nupkg.sha512"
     },
     "Newtonsoft.Json/12.0.2": {
       "type": "package",

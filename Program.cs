@@ -52,7 +52,13 @@ namespace WowUpdateChecker
 
         static void PrintBanner()
         {
-
+            Console.WriteLine("                   _       _                   ___ _               _             ");
+            Console.WriteLine("   /\\ /\\ _ __   __| | __ _| |_ ___            / __\\ |__   ___  ___| | _____ _ __ ");
+            Console.WriteLine("  / / \\ \\ '_ \\ / _` |/ _` | __/ _ \\  _____   / /  | '_ \\ / _ \\/ __| |/ / _ \\ '__|");
+            Console.WriteLine("  \\ \\_/ / |_) | (_| | (_| | ||  __/ |_____| / /___| | | |  __/ (__|   <  __/ |   ");
+            Console.WriteLine("   \\___/| .__/ \\__,_|\\__,_|\\__\\___|         \\____/|_| |_|\\___|\\___|_|\\_\\___|_|   ");
+            Console.WriteLine("        |_|                                                                      ");
+            Console.WriteLine("                                                    Author: Ferib Hellscream");
         }
 
         static List<VersionFile> GetCurrentVersion()
