@@ -1,0 +1,11 @@
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\bin\Debug\netcoreapp2.1\WowUpdateChecker.deps.json
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\bin\Debug\netcoreapp2.1\WowUpdateChecker.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\bin\Debug\netcoreapp2.1\WowUpdateChecker.runtimeconfig.dev.json
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\bin\Debug\netcoreapp2.1\WowUpdateChecker.dll
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\obj\Debug\netcoreapp2.1\WowUpdateChecker.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\obj\Debug\netcoreapp2.1\WowUpdateChecker.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\obj\Debug\netcoreapp2.1\WowUpdateChecker.AssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\bin\Debug\netcoreapp2.1\WowUpdateChecker.pdb
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\obj\Debug\netcoreapp2.1\WowUpdateChecker.csprojAssemblyReference.cache
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\obj\Debug\netcoreapp2.1\WowUpdateChecker.dll
+C:\Users\Gebruiker\source\repos\WowUpdateChecker\WowUpdateChecker\obj\Debug\netcoreapp2.1\WowUpdateChecker.pdb
